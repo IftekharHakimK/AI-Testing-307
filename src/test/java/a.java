@@ -16,7 +16,7 @@ public class a {
 
     @Given("Browser is opened and maximized")
     public void browser_is_opened_and_maximized() {
-        System.setProperty("webdriver.chrome.driver", "C://Users//USER//Desktop//chromedriver_win32//chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\USER\\Desktop\\3-1\\307\\Assignment\\AI-Testing-307\\Additions\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
